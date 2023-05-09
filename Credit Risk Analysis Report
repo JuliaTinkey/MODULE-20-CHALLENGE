@@ -1,6 +1,6 @@
 Credit Risk Analysis Report
 
-An overview of the analysis: Explain the purpose of this analysis.
+An overview of the analysis: 
 
 Credit Risk is associated with a borrower not returning an asset or paying a loan back causing a lender to lose money. In this analysis we used Machine Learning to analyze the dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers. We used various techniques to train and evaluate a model based on loan risk. The following steps were used to come to a final conclusion: split the Data into training and testing sets, create a logistic regression model with the original data, predict a logistic regression model with resampled training data, and trite a credit risk analysis report.
 
@@ -10,7 +10,7 @@ The results: Using a bulleted list, describe the accuracy score, the precision s
 
 
 
-A summary: Summarize the results from the machine learning model. Include your justification for recommending the model for use by the company. If you don’t recommend the model, justify your reasoning.
+A Summary:
 
 A lending company might want a model that requires classifying healthy loans and high-risk loans correctly most of the time. Healthy loans being identified as a high-risk loan might be more costly for a lending company since it might cause the loss of customers. High-risk loans being identified as a healthy loan might also be more costly for a lending company due to the loss of funds being provided by the lender.
 
