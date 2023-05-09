@@ -26,4 +26,4 @@ Answer the following question: How well does the logistic regression model predi
 Write a Credit Risk Analysis Report
 
 Resources:
--
+- In Class Activities 
