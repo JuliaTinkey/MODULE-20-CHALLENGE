@@ -6,7 +6,7 @@ Credit Risk is associated with a borrower not returning an asset or paying a loa
 
 Using a machine learning model, I tried to determine which loans are healthy loans or high-risk loans based on the loan status provided by the lending company.
 
-The Results: Using a bulleted list, describe the accuracy score, the precision score, and recall score of the machine learning model.
+The Results:
 
 - The accuracy for the Imbalanced data model was 95% (could be improved due to the data being imbalanced)
 - The accuracy for the OverSampled data model was 99%
