@@ -1,6 +1,6 @@
 Credit Risk Analysis Report
 
-An overview of the analysis: 
+An Overview of the Analysis: 
 
 Credit Risk is associated with a borrower not returning an asset or paying a loan back causing a lender to lose money. In this analysis we used Machine Learning to analyze the dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers. We used various techniques to train and evaluate a model based on loan risk. The following steps were used to come to a final conclusion: split the Data into training and testing sets, create a logistic regression model with the original data, predict a logistic regression model with resampled training data, and trite a credit risk analysis report.
 
