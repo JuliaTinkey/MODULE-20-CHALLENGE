@@ -6,14 +6,22 @@ Credit Risk is associated with a borrower not returning an asset or paying a loa
 
 Using a machine learning model, I tried to determine which loans are healthy loans or high-risk loans based on the loan status provided by the lending company.
 
-The results: Using a bulleted list, describe the accuracy score, the precision score, and recall score of the machine learning model.
+The Results: Using a bulleted list, describe the accuracy score, the precision score, and recall score of the machine learning model.
 
+- The accuracy for the Imbalanced data model was 95% (could be improved due to the data being imbalanced)
+- The accuracy for the OverSampled data model was 99%
+- This means the OverSampled data model was a more guareented model when analysing data for this project.
+
+-The precision score for the Imbalanced data model was 100% precise for healthy loan and 85% precise for high-risk loan when making predictions.
+-The precision score for the OverSampled data model was 100% precise for healthy loan and 84% precise for high-risk loan when makeing predictions.
 
 
 A Summary:
 
-A lending company might want a model that requires classifying healthy loans and high-risk loans correctly most of the time. Healthy loans being identified as a high-risk loan might be more costly for a lending company since it might cause the loss of customers. High-risk loans being identified as a healthy loan might also be more costly for a lending company due to the loss of funds being provided by the lender.
+A lending company might want a model that requires classifying healthy loans and high-risk loans correctly most of the time. 
 
 The Logistic Regression model with the OverSampled data performed better at 99% than the model with the Imbalanced data at 95% accuracy. 
 
-I would recommend using the Logistic Regression Model with OverSampled Data since the accuracy score was higher as well as the data in the confion matrics. 
+Logistic Regession Model 2 is less likely to predict false negative results. However, based on the confusion matrices for each model, Logistic Regession Model 2 predicted more false positives (healthy when actual was high-risk).
+
+Logistic Regession Model 2 has fewer false predicitions of the data overall and would be the best model to use based on the higher accuracy score as well. 
